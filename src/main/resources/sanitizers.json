@@ -1,0 +1,74 @@
+{
+  "classes": [
+    {
+      "clazz": "org.owasp.encoder.Encode",
+      "methods": [
+        "forHtml",
+        "forHtmlContent",
+        "forHtmlAttribute",
+        "forHtmlUnquotedAttribute",
+        "forCssString",
+        "forCssUrl",
+        "forUri",
+        "forUriComponent",
+        "forXml",
+        "forXmlContent",
+        "forXmlAttribute",
+        "forXmlComment",
+        "forCDATA",
+        "forJava",
+        "forJavaScript",
+        "forJavaScriptAttribute",
+        "forJavaScriptBlock",
+        "forJavaScriptSource"
+      ],
+      "descriptor": ""
+    },
+    {
+      "clazz": "java.net.URLEncoder",
+      "methods": [
+        "encode"
+      ],
+      "descriptor": ""
+    },
+    {
+      "clazz": "java.net.URLDecoder",
+      "methods": [
+        "decode"
+      ],
+      "descriptor": ""
+    },
+    {
+      "clazz": "org.apache.commons.lang.StringEscapeUtils",
+      "methods": [
+        "escapeJava",
+        "escapeJavaScript",
+        "unescapeJava",
+        "unescapeJavaScript",
+        "escapeHtml",
+        "unescapeHtml",
+        "escapeXml",
+        "unescapeXml",
+        "escapeSql",
+        "escapeCsv",
+        "unescapeCsv"
+      ],
+      "descriptor": ""
+    },
+    {
+      "clazz": "java.lang.String",
+      "methods": [
+        "replaceAll"
+      ],
+      "descriptor": ""
+    },
+    {
+      "clazz": "org.radeox.util.Encoder",
+      "methods": [
+        "escape"
+      ],
+      "descriptor": ""
+    }
+  ],
+  "interfaces": []
+}

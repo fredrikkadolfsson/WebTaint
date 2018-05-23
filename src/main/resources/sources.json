@@ -1,0 +1,167 @@
+{
+  "classes": [
+    {
+      "clazz": "javax.servlet.GenericServlet",
+      "methods": [
+        "getInitParameter",
+        "getInitParameterNames"
+      ],
+      "descriptor": ""
+    },
+    {
+      "clazz": "java.awt.TextComponent",
+      "methods": [
+        "getSelectedText",
+        "getText"
+      ],
+      "descriptor": ""
+    },
+    {
+      "clazz": "java.io.Console",
+      "methods": [
+        "readLine",
+        "readPassword"
+      ],
+      "descriptor": ""
+    },
+    {
+      "clazz": "java.io.DataInputStream",
+      "methods": [
+        "readLine",
+        "readUTF"
+      ],
+      "descriptor": ""
+    },
+    {
+      "clazz": "java.io.LineNumberReader",
+      "methods": [
+        "readLine"
+      ],
+      "descriptor": ""
+    },
+    {
+      "clazz": "java.lang.System",
+      "methods": [
+        "getProperty",
+        "getProperties",
+        "getenv"
+      ],
+      "descriptor": ""
+    },
+    {
+      "clazz": "java.util.Properties",
+      "methods": [
+        "getProperty"
+      ],
+      "descriptor": ""
+    },
+    {
+      "clazz": "java.lang.Class",
+      "methods": [
+        "getResource",
+        "getResourceAsStream"
+      ],
+      "descriptor": ""
+    },
+    {
+      "clazz": "org.apache.xmlrpc.XmlRpcClient",
+      "methods": [
+        "execute",
+        "search"
+      ],
+      "descriptor": ""
+    }
+  ],
+  "interfaces": [
+    {
+      "clazz": "javax.servlet.ServletRequest",
+      "methods": [
+        "getAttribute",
+        "getAttributeNames",
+        "getCharacterEncoding",
+        "getContentType",
+        "getParameter",
+        "getParameterNames",
+        "getParameterValues",
+        "getParameterMap",
+        "getProtocol",
+        "getScheme",
+        "getServerName",
+        "getRemoteAddr",
+        "getRemoteHost",
+        "getLocalName",
+        "getLocalAddr",
+        "getReader"
+      ],
+      "descriptor": ""
+    },
+    {
+      "clazz": "javax.servlet.http.HttpServletRequest",
+      "methods": [
+        "getAuthType",
+        "getHeader",
+        "getHeaders",
+        "getMethod",
+        "getPathInfo",
+        "getPathTranslated",
+        "getContextPath",
+        "getQueryString",
+        "getRemoteUser",
+        "getRequestedSessionId",
+        "getRequestURI",
+        "getRequestURL",
+        "getServletPath"
+      ],
+      "descriptor": ""
+    },
+    {
+      "clazz": "javax.servlet.ServletConfig",
+      "methods": [
+        "getInitParameter",
+        "getInitParameterNames"
+      ],
+      "descriptor": ""
+    },
+    {
+      "clazz": "java.sql.ResultSet",
+      "methods": [
+        "getString",
+        "getObject"
+      ],
+      "descriptor": ""
+    },
+    {
+      "clazz": "javax.servlet.http.HttpSession",
+      "methods": [
+        "getAttribute",
+        "getAttributeNames",
+        "getValue",
+        "getValueNames"
+      ],
+      "descriptor": ""
+    },
+    {
+      "clazz": "javax.servlet.ServletContext",
+      "methods": [
+        "getResourceAsStream",
+        "getRealPath",
+        "getHeaderNames"
+      ],
+      "descriptor": ""
+    },
+    {
+      "clazz": "javax.xml.xpath.xPath.XPath",
+      "methods": [
+        "evaluate"
+      ],
+      "descriptor": ""
+    },
+    {
+      "clazz": "javax.xml.xpath.XPathExpression",
+      "methods": [
+        "evaluate"
+      ],
+      "descriptor": ""
+    }
+  ]
+}

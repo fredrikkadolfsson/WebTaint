@@ -1,0 +1,172 @@
+{
+  "classes": [
+    {
+      "clazz": "java.lang.Runtime",
+      "methods": [
+        "exec"
+      ],
+      "descriptor": ""
+    },
+    {
+      "clazz": "java.lang.System",
+      "methods": [
+        "load",
+        "loadLibrary"
+      ],
+      "descriptor": ""
+    },
+    {
+      "clazz": "org.apache.xmlrpc.XmlRpcClient",
+      "methods": [
+        "XmlRpcClient",
+        "execute",
+        "executeAsync"
+      ],
+      "descriptor": ""
+    },
+    {
+      "clazz": "javax.servlet.http.Cookie",
+      "methods": [
+        "Cookie",
+        "setComment",
+        "setDomain",
+        "setPath",
+        "setValue"
+      ],
+      "descriptor": ""
+    },
+    {
+      "clazz": "java.io.PrintWriter",
+      "methods": [
+        "print",
+        "println",
+        "write"
+      ],
+      "descriptor": ""
+    },
+    {
+      "clazz": "javax.servlet.ServletOutputStream",
+      "methods": [
+        "print",
+        "println"
+      ],
+      "descriptor": ""
+    },
+    {
+      "clazz": "javax.servlet.jsp.JspWriter",
+      "methods": [
+        "print",
+        "println"
+      ],
+      "descriptor": ""
+    }
+  ],
+  "interfaces": [
+    {
+      "clazz": "javax.xml.xpath.XPath",
+      "methods": [
+        "compile",
+        "evaluate"
+      ],
+      "descriptor": ""
+    },
+    {
+      "clazz": "javax.xml.xpath.XPathExpression",
+      "methods": [
+        "evaluate"
+      ],
+      "descriptor": ""
+    },
+    {
+      "clazz": "javax.servlet.ServletRequest",
+      "methods": [
+        "setAttribute",
+        "setCharacterEncoding"
+      ],
+      "descriptor": ""
+    },
+    {
+      "clazz": "javax.servlet.http.HttpServletResponse",
+      "methods": [
+        "sendError",
+        "setDateHeader",
+        "addDateHeader",
+        "setHeader",
+        "addHeader",
+        "setIntHeader",
+        "addIntHeader"
+      ],
+      "descriptor": ""
+    },
+    {
+      "clazz": "javax.servlet.ServletResponse",
+      "methods": [
+        "setCharacterEncoding",
+        "setContentType"
+      ],
+      "descriptor": ""
+    },
+    {
+      "clazz": "javax.servlet.http.HttpSession",
+      "methods": [
+        "setAttribute",
+        "putValue"
+      ],
+      "descriptor": ""
+    },
+    {
+      "clazz": "java.sql.Statement",
+      "methods": [
+        "addBatch",
+        "execute",
+        "executeQuery",
+        "executeUpdate"
+      ],
+      "descriptor": ""
+    },
+    {
+      "clazz": "java.sql.Connection",
+      "methods": [
+        "prepareStatement",
+        "prepareCall"
+      ],
+      "descriptor": ""
+    },
+    {
+      "clazz": "javax.persistence.EntityManager",
+      "methods": [
+        "createNativeQuery",
+        "createQuery"
+      ],
+      "descriptor": ""
+    },
+    {
+      "clazz": "net.sf.hibernate.Session",
+      "methods": [
+        "createSQLQuery",
+        "createQuery",
+        "find",
+        "delete",
+        "save",
+        "saveOrUpdate",
+        "update",
+        "load"
+      ],
+      "descriptor": ""
+    },
+    {
+      "clazz": "org.hibernate.Session",
+      "methods": [
+        "createSQLQuery",
+        "createQuery",
+        "find",
+        "delete",
+        "save",
+        "saveOrUpdate",
+        "update",
+        "load"
+      ],
+      "descriptor": ""
+    }
+  ]
+}
